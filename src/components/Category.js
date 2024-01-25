@@ -31,8 +31,7 @@ const Category = () => {
       <select onChange={handleCategoryChange} style={selectStyle}>
         <option value="any">Any Category</option>
         <option value="9">General Knowledge</option>
-        {/* ... (other options) ... */}
-        <option value="32">Entertainment: Cartoon &amp; Animations</option>
+        <option value="32">Entertainment: Cartoon</option>
       </select>
     </div>
   );
